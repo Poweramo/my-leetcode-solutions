@@ -1,0 +1,4 @@
+1st try :
+ - Time needed : 6min
+ - Time complexity : O(n**2)
+ 
