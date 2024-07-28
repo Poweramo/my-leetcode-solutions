@@ -11,10 +11,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
 ## Math
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0009-palindrome-number) |
+| [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
 ## Linked List
 |  |
 | ------- |
@@ -23,4 +25,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
+## String
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
