@@ -11,20 +11,18 @@
  * @return {ListNode}
  */
 function removeElements(head, val) {
-	let trav1 = head;
+    let trav1 = head;
 	let trav2 = head?.next;
 
 	while (trav2) {
 		if (trav2.val === val) {
 			trav2 = trav2.next;
 			trav1.next = trav2;
+		} else if (head.val === val) {
+			head = head.next;
 		} else {
-			if (head.val === val) {
-				head = head.next;
-			} else {
-				trav1 = trav1.next;
-				trav2 = trav2.next;
-			}
+			trav1 = trav1.next;
+			trav2 = trav2.next;
 		}
 	}
 
