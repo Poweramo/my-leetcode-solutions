@@ -45,12 +45,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
+| [0874-backspace-string-compare](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0874-backspace-string-compare) |
 ## Two Pointers
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0234-palindrome-linked-list) |
+| [0874-backspace-string-compare](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
 ## Stack
 |  |
@@ -58,8 +60,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
+| [0874-backspace-string-compare](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0874-backspace-string-compare) |
 ## Simulation
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
+| [0874-backspace-string-compare](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0874-backspace-string-compare) |
 <!---LeetCode Topics End-->
