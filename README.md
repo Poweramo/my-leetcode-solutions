@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0874-backspace-string-compare](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0874-backspace-string-compare) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 ## Two Pointers
 |  |
 | ------- |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
 | [0874-backspace-string-compare](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0874-backspace-string-compare) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 ## Simulation
 |  |
 | ------- |
