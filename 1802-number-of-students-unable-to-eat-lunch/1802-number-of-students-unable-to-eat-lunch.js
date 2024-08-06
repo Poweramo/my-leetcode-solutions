@@ -5,19 +5,19 @@
  */
 
 function countStudents(students, sandwiches) {
-	let unable = 0;
+	let limit = 0;
     
 	while (students.length) {
 		if (students[0] === sandwiches[0]) {
 			students.shift();
 			sandwiches.shift();
-            unable = 0
+            limit = 0
 		} else {
 			students.push(students.shift());
-			unable++;
+			limit++;
 		}
 
-		if (unable === students.length) break;
+		if (limit === students.length) break;
 	}
 
 	return students.length;
