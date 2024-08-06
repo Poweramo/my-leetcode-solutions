@@ -9,8 +9,6 @@ function MyQueue() {
 	this.front = null;
 	this.back = null;
 	this.length = 0;
-
-	return this.front;
 }
 
 /**
