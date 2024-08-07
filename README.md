@@ -1,102 +1,205 @@
-# leetcode-solutions
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+IyBsZWV0Y29kZS1zb2x1dGlvbnMKQ29sbGVjdGlvbiBvZiBMZWV0Q29kZSBx
+dWVzdGlvbnMgdG8gYWNlIHRoZSBjb2RpbmcgaW50ZXJ2aWV3ISAtIENyZWF0
+ZWQgdXNpbmcgW0xlZXRIdWJdKGh0dHBzOi8vZ2l0aHViLmNvbS9RYXNpbVdh
+bmkvTGVldEh1YikKCjwhLS0tTGVldENvZGUgVG9waWNzIFN0YXJ0LS0+CiMg
+TGVldENvZGUgVG9waWNzCiMjIEFycmF5CnwgIHwKfCAtLS0tLS0tIHwKfCBb
+MDAwMS10d28tc3VtXShodHRwczovL2dpdGh1Yi5jb20vUG93ZXJhbW8vbXkt
+bGVldGNvZGUtc29sdXRpb25zL3RyZWUvbWFzdGVyLzAwMDEtdHdvLXN1bSkg
+fAp8IFswNDk2LW5leHQtZ3JlYXRlci1lbGVtZW50LWldKGh0dHBzOi8vZ2l0
+aHViLmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9t
+YXN0ZXIvMDQ5Ni1uZXh0LWdyZWF0ZXItZWxlbWVudC1pKSB8CnwgWzA2ODIt
+YmFzZWJhbGwtZ2FtZV0oaHR0cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1vL215
+LWxlZXRjb2RlLXNvbHV0aW9ucy90cmVlL21hc3Rlci8wNjgyLWJhc2ViYWxs
+LWdhbWUpIHwKfCBbMTU3MC1maW5hbC1wcmljZXMtd2l0aC1hLXNwZWNpYWwt
+ZGlzY291bnQtaW4tYS1zaG9wXShodHRwczovL2dpdGh1Yi5jb20vUG93ZXJh
+bW8vbXktbGVldGNvZGUtc29sdXRpb25zL3RyZWUvbWFzdGVyLzE1NzAtZmlu
+YWwtcHJpY2VzLXdpdGgtYS1zcGVjaWFsLWRpc2NvdW50LWluLWEtc2hvcCkg
+fAp8IFsxNzIwLWNyYXdsZXItbG9nLWZvbGRlcl0oaHR0cHM6Ly9naXRodWIu
+Y29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNvbHV0aW9ucy90cmVlL21hc3Rl
+ci8xNzIwLWNyYXdsZXItbG9nLWZvbGRlcikgfAp8IFsxODAyLW51bWJlci1v
+Zi1zdHVkZW50cy11bmFibGUtdG8tZWF0LWx1bmNoXShodHRwczovL2dpdGh1
+Yi5jb20vUG93ZXJhbW8vbXktbGVldGNvZGUtc29sdXRpb25zL3RyZWUvbWFz
+dGVyLzE4MDItbnVtYmVyLW9mLXN0dWRlbnRzLXVuYWJsZS10by1lYXQtbHVu
+Y2gpIHwKIyMgSGFzaCBUYWJsZQp8ICB8CnwgLS0tLS0tLSB8CnwgWzAwMDEt
+dHdvLXN1bV0oaHR0cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxlZXRj
+b2RlLXNvbHV0aW9ucy90cmVlL21hc3Rlci8wMDAxLXR3by1zdW0pIHwKfCBb
+MDAxMy1yb21hbi10by1pbnRlZ2VyXShodHRwczovL2dpdGh1Yi5jb20vUG93
+ZXJhbW8vbXktbGVldGNvZGUtc29sdXRpb25zL3RyZWUvbWFzdGVyLzAwMTMt
+cm9tYW4tdG8taW50ZWdlcikgfAp8IFswMTQxLWxpbmtlZC1saXN0LWN5Y2xl
+XShodHRwczovL2dpdGh1Yi5jb20vUG93ZXJhbW8vbXktbGVldGNvZGUtc29s
+dXRpb25zL3RyZWUvbWFzdGVyLzAxNDEtbGlua2VkLWxpc3QtY3ljbGUpIHwK
+fCBbMDE2MC1pbnRlcnNlY3Rpb24tb2YtdHdvLWxpbmtlZC1saXN0c10oaHR0
+cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNvbHV0aW9u
+cy90cmVlL21hc3Rlci8wMTYwLWludGVyc2VjdGlvbi1vZi10d28tbGlua2Vk
+LWxpc3RzKSB8CnwgWzA0OTYtbmV4dC1ncmVhdGVyLWVsZW1lbnQtaV0oaHR0
+cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNvbHV0aW9u
+cy90cmVlL21hc3Rlci8wNDk2LW5leHQtZ3JlYXRlci1lbGVtZW50LWkpIHwK
+IyMgTWF0aAp8ICB8CnwgLS0tLS0tLSB8CnwgWzAwMDktcGFsaW5kcm9tZS1u
+dW1iZXJdKGh0dHBzOi8vZ2l0aHViLmNvbS9Qb3dlcmFtby9teS1sZWV0Y29k
+ZS1zb2x1dGlvbnMvdHJlZS9tYXN0ZXIvMDAwOS1wYWxpbmRyb21lLW51bWJl
+cikgfAp8IFswMDEzLXJvbWFuLXRvLWludGVnZXJdKGh0dHBzOi8vZ2l0aHVi
+LmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9tYXN0
+ZXIvMDAxMy1yb21hbi10by1pbnRlZ2VyKSB8CnwgWzE0MTEtY29udmVydC1i
+aW5hcnktbnVtYmVyLWluLWEtbGlua2VkLWxpc3QtdG8taW50ZWdlcl0oaHR0
+cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNvbHV0aW9u
+cy90cmVlL21hc3Rlci8xNDExLWNvbnZlcnQtYmluYXJ5LW51bWJlci1pbi1h
+LWxpbmtlZC1saXN0LXRvLWludGVnZXIpIHwKIyMgTGlua2VkIExpc3QKfCAg
+fAp8IC0tLS0tLS0gfAp8IFswMDIxLW1lcmdlLXR3by1zb3J0ZWQtbGlzdHNd
+KGh0dHBzOi8vZ2l0aHViLmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1
+dGlvbnMvdHJlZS9tYXN0ZXIvMDAyMS1tZXJnZS10d28tc29ydGVkLWxpc3Rz
+KSB8CnwgWzAwODMtcmVtb3ZlLWR1cGxpY2F0ZXMtZnJvbS1zb3J0ZWQtbGlz
+dF0oaHR0cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNv
+bHV0aW9ucy90cmVlL21hc3Rlci8wMDgzLXJlbW92ZS1kdXBsaWNhdGVzLWZy
+b20tc29ydGVkLWxpc3QpIHwKfCBbMDE0MS1saW5rZWQtbGlzdC1jeWNsZV0o
+aHR0cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNvbHV0
+aW9ucy90cmVlL21hc3Rlci8wMTQxLWxpbmtlZC1saXN0LWN5Y2xlKSB8Cnwg
+WzAxNjAtaW50ZXJzZWN0aW9uLW9mLXR3by1saW5rZWQtbGlzdHNdKGh0dHBz
+Oi8vZ2l0aHViLmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMv
+dHJlZS9tYXN0ZXIvMDE2MC1pbnRlcnNlY3Rpb24tb2YtdHdvLWxpbmtlZC1s
+aXN0cykgfAp8IFswMjAzLXJlbW92ZS1saW5rZWQtbGlzdC1lbGVtZW50c10o
+aHR0cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNvbHV0
+aW9ucy90cmVlL21hc3Rlci8wMjAzLXJlbW92ZS1saW5rZWQtbGlzdC1lbGVt
+ZW50cykgfAp8IFswMjA2LXJldmVyc2UtbGlua2VkLWxpc3RdKGh0dHBzOi8v
+Z2l0aHViLmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJl
+ZS9tYXN0ZXIvMDIwNi1yZXZlcnNlLWxpbmtlZC1saXN0KSB8CnwgWzAyMzQt
+cGFsaW5kcm9tZS1saW5rZWQtbGlzdF0oaHR0cHM6Ly9naXRodWIuY29tL1Bv
+d2VyYW1vL215LWxlZXRjb2RlLXNvbHV0aW9ucy90cmVlL21hc3Rlci8wMjM0
+LXBhbGluZHJvbWUtbGlua2VkLWxpc3QpIHwKfCBbMDkwOC1taWRkbGUtb2Yt
+dGhlLWxpbmtlZC1saXN0XShodHRwczovL2dpdGh1Yi5jb20vUG93ZXJhbW8v
+bXktbGVldGNvZGUtc29sdXRpb25zL3RyZWUvbWFzdGVyLzA5MDgtbWlkZGxl
+LW9mLXRoZS1saW5rZWQtbGlzdCkgfAp8IFsxNDExLWNvbnZlcnQtYmluYXJ5
+LW51bWJlci1pbi1hLWxpbmtlZC1saXN0LXRvLWludGVnZXJdKGh0dHBzOi8v
+Z2l0aHViLmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJl
+ZS9tYXN0ZXIvMTQxMS1jb252ZXJ0LWJpbmFyeS1udW1iZXItaW4tYS1saW5r
+ZWQtbGlzdC10by1pbnRlZ2VyKSB8CiMjIFJlY3Vyc2lvbgp8ICB8CnwgLS0t
+LS0tLSB8CnwgWzAwMjEtbWVyZ2UtdHdvLXNvcnRlZC1saXN0c10oaHR0cHM6
+Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNvbHV0aW9ucy90
+cmVlL21hc3Rlci8wMDIxLW1lcmdlLXR3by1zb3J0ZWQtbGlzdHMpIHwKfCBb
+MDIwMy1yZW1vdmUtbGlua2VkLWxpc3QtZWxlbWVudHNdKGh0dHBzOi8vZ2l0
+aHViLmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9t
+YXN0ZXIvMDIwMy1yZW1vdmUtbGlua2VkLWxpc3QtZWxlbWVudHMpIHwKfCBb
+MDIwNi1yZXZlcnNlLWxpbmtlZC1saXN0XShodHRwczovL2dpdGh1Yi5jb20v
+UG93ZXJhbW8vbXktbGVldGNvZGUtc29sdXRpb25zL3RyZWUvbWFzdGVyLzAy
+MDYtcmV2ZXJzZS1saW5rZWQtbGlzdCkgfAp8IFswMjM0LXBhbGluZHJvbWUt
+bGlua2VkLWxpc3RdKGh0dHBzOi8vZ2l0aHViLmNvbS9Qb3dlcmFtby9teS1s
+ZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9tYXN0ZXIvMDIzNC1wYWxpbmRyb21l
+LWxpbmtlZC1saXN0KSB8CiMjIFN0cmluZwp8ICB8CnwgLS0tLS0tLSB8Cnwg
+WzAwMTMtcm9tYW4tdG8taW50ZWdlcl0oaHR0cHM6Ly9naXRodWIuY29tL1Bv
+d2VyYW1vL215LWxlZXRjb2RlLXNvbHV0aW9ucy90cmVlL21hc3Rlci8wMDEz
+LXJvbWFuLXRvLWludGVnZXIpIHwKfCBbMDAyMC12YWxpZC1wYXJlbnRoZXNl
+c10oaHR0cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNv
+bHV0aW9ucy90cmVlL21hc3Rlci8wMDIwLXZhbGlkLXBhcmVudGhlc2VzKSB8
+CnwgWzA4NzQtYmFja3NwYWNlLXN0cmluZy1jb21wYXJlXShodHRwczovL2dp
+dGh1Yi5jb20vUG93ZXJhbW8vbXktbGVldGNvZGUtc29sdXRpb25zL3RyZWUv
+bWFzdGVyLzA4NzQtYmFja3NwYWNlLXN0cmluZy1jb21wYXJlKSB8CnwgWzEx
+MjgtcmVtb3ZlLWFsbC1hZGphY2VudC1kdXBsaWNhdGVzLWluLXN0cmluZ10o
+aHR0cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNvbHV0
+aW9ucy90cmVlL21hc3Rlci8xMTI4LXJlbW92ZS1hbGwtYWRqYWNlbnQtZHVw
+bGljYXRlcy1pbi1zdHJpbmcpIHwKfCBbMTcyMC1jcmF3bGVyLWxvZy1mb2xk
+ZXJdKGh0dHBzOi8vZ2l0aHViLmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1z
+b2x1dGlvbnMvdHJlZS9tYXN0ZXIvMTcyMC1jcmF3bGVyLWxvZy1mb2xkZXIp
+IHwKfCBbMTczNy1tYXhpbXVtLW5lc3RpbmctZGVwdGgtb2YtdGhlLXBhcmVu
+dGhlc2VzXShodHRwczovL2dpdGh1Yi5jb20vUG93ZXJhbW8vbXktbGVldGNv
+ZGUtc29sdXRpb25zL3RyZWUvbWFzdGVyLzE3MzctbWF4aW11bS1uZXN0aW5n
+LWRlcHRoLW9mLXRoZS1wYXJlbnRoZXNlcykgfAp8IFsyODAwLW1pbmltdW0t
+c3RyaW5nLWxlbmd0aC1hZnRlci1yZW1vdmluZy1zdWJzdHJpbmdzXShodHRw
+czovL2dpdGh1Yi5jb20vUG93ZXJhbW8vbXktbGVldGNvZGUtc29sdXRpb25z
+L3RyZWUvbWFzdGVyLzI4MDAtbWluaW11bS1zdHJpbmctbGVuZ3RoLWFmdGVy
+LXJlbW92aW5nLXN1YnN0cmluZ3MpIHwKIyMgVHdvIFBvaW50ZXJzCnwgIHwK
+fCAtLS0tLS0tIHwKfCBbMDE0MS1saW5rZWQtbGlzdC1jeWNsZV0oaHR0cHM6
+Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNvbHV0aW9ucy90
+cmVlL21hc3Rlci8wMTQxLWxpbmtlZC1saXN0LWN5Y2xlKSB8CnwgWzAxNjAt
+aW50ZXJzZWN0aW9uLW9mLXR3by1saW5rZWQtbGlzdHNdKGh0dHBzOi8vZ2l0
+aHViLmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9t
+YXN0ZXIvMDE2MC1pbnRlcnNlY3Rpb24tb2YtdHdvLWxpbmtlZC1saXN0cykg
+fAp8IFswMjM0LXBhbGluZHJvbWUtbGlua2VkLWxpc3RdKGh0dHBzOi8vZ2l0
+aHViLmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9t
+YXN0ZXIvMDIzNC1wYWxpbmRyb21lLWxpbmtlZC1saXN0KSB8CnwgWzA4NzQt
+YmFja3NwYWNlLXN0cmluZy1jb21wYXJlXShodHRwczovL2dpdGh1Yi5jb20v
+UG93ZXJhbW8vbXktbGVldGNvZGUtc29sdXRpb25zL3RyZWUvbWFzdGVyLzA4
+NzQtYmFja3NwYWNlLXN0cmluZy1jb21wYXJlKSB8CnwgWzA5MDgtbWlkZGxl
+LW9mLXRoZS1saW5rZWQtbGlzdF0oaHR0cHM6Ly9naXRodWIuY29tL1Bvd2Vy
+YW1vL215LWxlZXRjb2RlLXNvbHV0aW9ucy90cmVlL21hc3Rlci8wOTA4LW1p
+ZGRsZS1vZi10aGUtbGlua2VkLWxpc3QpIHwKIyMgU3RhY2sKfCAgfAp8IC0t
+LS0tLS0gfAp8IFswMDIwLXZhbGlkLXBhcmVudGhlc2VzXShodHRwczovL2dp
+dGh1Yi5jb20vUG93ZXJhbW8vbXktbGVldGNvZGUtc29sdXRpb25zL3RyZWUv
+bWFzdGVyLzAwMjAtdmFsaWQtcGFyZW50aGVzZXMpIHwKfCBbMDIzMi1pbXBs
+ZW1lbnQtcXVldWUtdXNpbmctc3RhY2tzXShodHRwczovL2dpdGh1Yi5jb20v
+UG93ZXJhbW8vbXktbGVldGNvZGUtc29sdXRpb25zL3RyZWUvbWFzdGVyLzAy
+MzItaW1wbGVtZW50LXF1ZXVlLXVzaW5nLXN0YWNrcykgfAp8IFswMjM0LXBh
+bGluZHJvbWUtbGlua2VkLWxpc3RdKGh0dHBzOi8vZ2l0aHViLmNvbS9Qb3dl
+cmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9tYXN0ZXIvMDIzNC1w
+YWxpbmRyb21lLWxpbmtlZC1saXN0KSB8CnwgWzA0OTYtbmV4dC1ncmVhdGVy
+LWVsZW1lbnQtaV0oaHR0cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxl
+ZXRjb2RlLXNvbHV0aW9ucy90cmVlL21hc3Rlci8wNDk2LW5leHQtZ3JlYXRl
+ci1lbGVtZW50LWkpIHwKfCBbMDY4Mi1iYXNlYmFsbC1nYW1lXShodHRwczov
+L2dpdGh1Yi5jb20vUG93ZXJhbW8vbXktbGVldGNvZGUtc29sdXRpb25zL3Ry
+ZWUvbWFzdGVyLzA2ODItYmFzZWJhbGwtZ2FtZSkgfAp8IFswODc0LWJhY2tz
+cGFjZS1zdHJpbmctY29tcGFyZV0oaHR0cHM6Ly9naXRodWIuY29tL1Bvd2Vy
+YW1vL215LWxlZXRjb2RlLXNvbHV0aW9ucy90cmVlL21hc3Rlci8wODc0LWJh
+Y2tzcGFjZS1zdHJpbmctY29tcGFyZSkgfAp8IFsxMTI4LXJlbW92ZS1hbGwt
+YWRqYWNlbnQtZHVwbGljYXRlcy1pbi1zdHJpbmddKGh0dHBzOi8vZ2l0aHVi
+LmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9tYXN0
+ZXIvMTEyOC1yZW1vdmUtYWxsLWFkamFjZW50LWR1cGxpY2F0ZXMtaW4tc3Ry
+aW5nKSB8CnwgWzE1NzAtZmluYWwtcHJpY2VzLXdpdGgtYS1zcGVjaWFsLWRp
+c2NvdW50LWluLWEtc2hvcF0oaHR0cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1v
+L215LWxlZXRjb2RlLXNvbHV0aW9ucy90cmVlL21hc3Rlci8xNTcwLWZpbmFs
+LXByaWNlcy13aXRoLWEtc3BlY2lhbC1kaXNjb3VudC1pbi1hLXNob3ApIHwK
+fCBbMTcyMC1jcmF3bGVyLWxvZy1mb2xkZXJdKGh0dHBzOi8vZ2l0aHViLmNv
+bS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9tYXN0ZXIv
+MTcyMC1jcmF3bGVyLWxvZy1mb2xkZXIpIHwKfCBbMTczNy1tYXhpbXVtLW5l
+c3RpbmctZGVwdGgtb2YtdGhlLXBhcmVudGhlc2VzXShodHRwczovL2dpdGh1
+Yi5jb20vUG93ZXJhbW8vbXktbGVldGNvZGUtc29sdXRpb25zL3RyZWUvbWFz
+dGVyLzE3MzctbWF4aW11bS1uZXN0aW5nLWRlcHRoLW9mLXRoZS1wYXJlbnRo
+ZXNlcykgfAp8IFsxODAyLW51bWJlci1vZi1zdHVkZW50cy11bmFibGUtdG8t
+ZWF0LWx1bmNoXShodHRwczovL2dpdGh1Yi5jb20vUG93ZXJhbW8vbXktbGVl
+dGNvZGUtc29sdXRpb25zL3RyZWUvbWFzdGVyLzE4MDItbnVtYmVyLW9mLXN0
+dWRlbnRzLXVuYWJsZS10by1lYXQtbHVuY2gpIHwKfCBbMjgwMC1taW5pbXVt
+LXN0cmluZy1sZW5ndGgtYWZ0ZXItcmVtb3Zpbmctc3Vic3RyaW5nc10oaHR0
+cHM6Ly9naXRodWIuY29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNvbHV0aW9u
+cy90cmVlL21hc3Rlci8yODAwLW1pbmltdW0tc3RyaW5nLWxlbmd0aC1hZnRl
+ci1yZW1vdmluZy1zdWJzdHJpbmdzKSB8CiMjIFNpbXVsYXRpb24KfCAgfAp8
+IC0tLS0tLS0gfAp8IFswNjgyLWJhc2ViYWxsLWdhbWVdKGh0dHBzOi8vZ2l0
+aHViLmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9t
+YXN0ZXIvMDY4Mi1iYXNlYmFsbC1nYW1lKSB8CnwgWzA4NzQtYmFja3NwYWNl
+LXN0cmluZy1jb21wYXJlXShodHRwczovL2dpdGh1Yi5jb20vUG93ZXJhbW8v
+bXktbGVldGNvZGUtc29sdXRpb25zL3RyZWUvbWFzdGVyLzA4NzQtYmFja3Nw
+YWNlLXN0cmluZy1jb21wYXJlKSB8CnwgWzE4MDItbnVtYmVyLW9mLXN0dWRl
+bnRzLXVuYWJsZS10by1lYXQtbHVuY2hdKGh0dHBzOi8vZ2l0aHViLmNvbS9Q
+b3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9tYXN0ZXIvMTgw
+Mi1udW1iZXItb2Ytc3R1ZGVudHMtdW5hYmxlLXRvLWVhdC1sdW5jaCkgfAp8
+IFsyODAwLW1pbmltdW0tc3RyaW5nLWxlbmd0aC1hZnRlci1yZW1vdmluZy1z
+dWJzdHJpbmdzXShodHRwczovL2dpdGh1Yi5jb20vUG93ZXJhbW8vbXktbGVl
+dGNvZGUtc29sdXRpb25zL3RyZWUvbWFzdGVyLzI4MDAtbWluaW11bS1zdHJp
+bmctbGVuZ3RoLWFmdGVyLXJlbW92aW5nLXN1YnN0cmluZ3MpIHwKIyMgTW9u
+b3RvbmljIFN0YWNrCnwgIHwKfCAtLS0tLS0tIHwKfCBbMDQ5Ni1uZXh0LWdy
+ZWF0ZXItZWxlbWVudC1pXShodHRwczovL2dpdGh1Yi5jb20vUG93ZXJhbW8v
+bXktbGVldGNvZGUtc29sdXRpb25zL3RyZWUvbWFzdGVyLzA0OTYtbmV4dC1n
+cmVhdGVyLWVsZW1lbnQtaSkgfAp8IFsxNTcwLWZpbmFsLXByaWNlcy13aXRo
+LWEtc3BlY2lhbC1kaXNjb3VudC1pbi1hLXNob3BdKGh0dHBzOi8vZ2l0aHVi
+LmNvbS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9tYXN0
+ZXIvMTU3MC1maW5hbC1wcmljZXMtd2l0aC1hLXNwZWNpYWwtZGlzY291bnQt
+aW4tYS1zaG9wKSB8CiMjIERlc2lnbgp8ICB8CnwgLS0tLS0tLSB8CnwgWzAy
+MzItaW1wbGVtZW50LXF1ZXVlLXVzaW5nLXN0YWNrc10oaHR0cHM6Ly9naXRo
+dWIuY29tL1Bvd2VyYW1vL215LWxlZXRjb2RlLXNvbHV0aW9ucy90cmVlL21h
+c3Rlci8wMjMyLWltcGxlbWVudC1xdWV1ZS11c2luZy1zdGFja3MpIHwKIyMg
+UXVldWUKfCAgfAp8IC0tLS0tLS0gfAp8IFswMjMyLWltcGxlbWVudC1xdWV1
+ZS11c2luZy1zdGFja3NdKGh0dHBzOi8vZ2l0aHViLmNvbS9Qb3dlcmFtby9t
+eS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9tYXN0ZXIvMDIzMi1pbXBsZW1l
+bnQtcXVldWUtdXNpbmctc3RhY2tzKSB8CnwgWzE4MDItbnVtYmVyLW9mLXN0
+dWRlbnRzLXVuYWJsZS10by1lYXQtbHVuY2hdKGh0dHBzOi8vZ2l0aHViLmNv
+bS9Qb3dlcmFtby9teS1sZWV0Y29kZS1zb2x1dGlvbnMvdHJlZS9tYXN0ZXIv
+MTgwMi1udW1iZXItb2Ytc3R1ZGVudHMtdW5hYmxlLXRvLWVhdC1sdW5jaCkg
+fAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0001-two-sum) |
-| [0496-next-greater-element-i](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0496-next-greater-element-i) |
-| [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
-| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
-| [1720-crawler-log-folder](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1720-crawler-log-folder) |
-| [1802-number-of-students-unable-to-eat-lunch](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
-## Hash Table
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0001-two-sum) |
-| [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
-| [0141-linked-list-cycle](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0141-linked-list-cycle) |
-| [0160-intersection-of-two-linked-lists](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
-| [0496-next-greater-element-i](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0496-next-greater-element-i) |
-## Math
-|  |
-| ------- |
-| [0009-palindrome-number](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0009-palindrome-number) |
-| [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
-| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
-## Linked List
-|  |
-| ------- |
-| [0021-merge-two-sorted-lists](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
-| [0083-remove-duplicates-from-sorted-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0083-remove-duplicates-from-sorted-list) |
-| [0141-linked-list-cycle](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0141-linked-list-cycle) |
-| [0160-intersection-of-two-linked-lists](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
-| [0203-remove-linked-list-elements](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0203-remove-linked-list-elements) |
-| [0206-reverse-linked-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0206-reverse-linked-list) |
-| [0234-palindrome-linked-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0234-palindrome-linked-list) |
-| [0908-middle-of-the-linked-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
-| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
-## Recursion
-|  |
-| ------- |
-| [0021-merge-two-sorted-lists](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
-| [0203-remove-linked-list-elements](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0203-remove-linked-list-elements) |
-| [0206-reverse-linked-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0206-reverse-linked-list) |
-| [0234-palindrome-linked-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 ## String
 |  |
 | ------- |
-| [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
-| [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
-| [0874-backspace-string-compare](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0874-backspace-string-compare) |
-| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
-| [1720-crawler-log-folder](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1720-crawler-log-folder) |
-| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
-| [2800-minimum-string-length-after-removing-substrings](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
-## Two Pointers
+| [0014-longest-common-prefix](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0014-longest-common-prefix) |
+## Trie
 |  |
 | ------- |
-| [0141-linked-list-cycle](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0141-linked-list-cycle) |
-| [0160-intersection-of-two-linked-lists](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
-| [0234-palindrome-linked-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0234-palindrome-linked-list) |
-| [0874-backspace-string-compare](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0874-backspace-string-compare) |
-| [0908-middle-of-the-linked-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
-## Stack
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
-| [0232-implement-queue-using-stacks](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
-| [0234-palindrome-linked-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0234-palindrome-linked-list) |
-| [0496-next-greater-element-i](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0496-next-greater-element-i) |
-| [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
-| [0874-backspace-string-compare](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0874-backspace-string-compare) |
-| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
-| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
-| [1720-crawler-log-folder](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1720-crawler-log-folder) |
-| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
-| [1802-number-of-students-unable-to-eat-lunch](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
-| [2800-minimum-string-length-after-removing-substrings](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
-## Simulation
-|  |
-| ------- |
-| [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
-| [0874-backspace-string-compare](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0874-backspace-string-compare) |
-| [1802-number-of-students-unable-to-eat-lunch](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
-| [2800-minimum-string-length-after-removing-substrings](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
-## Monotonic Stack
-|  |
-| ------- |
-| [0496-next-greater-element-i](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0496-next-greater-element-i) |
-| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
-## Design
-|  |
-| ------- |
-| [0232-implement-queue-using-stacks](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
-## Queue
-|  |
-| ------- |
-| [0232-implement-queue-using-stacks](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
-| [1802-number-of-students-unable-to-eat-lunch](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [0014-longest-common-prefix](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
