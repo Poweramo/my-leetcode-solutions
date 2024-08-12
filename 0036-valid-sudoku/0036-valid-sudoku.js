@@ -37,7 +37,7 @@ function isValidSudoku(board) {
             const rowIndex = Math.floor(i / 3);
             const columnIndex = Math.floor(j / 3);
 
-            if (i !== 0) if (boxes[[rowIndex, columnIndex]]?.has(cell)) return false;
+            if (boxes[[rowIndex, columnIndex]]?.has(cell)) return false;
             if (cell !== ".") {
                 if (boxes[[rowIndex, columnIndex]]) {
                     boxes[[rowIndex, columnIndex]].set(cell, "exist");
