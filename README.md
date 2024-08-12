@@ -4,11 +4,13 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0036-valid-sudoku) |
 | [0238-product-of-array-except-self](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0036-valid-sudoku) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 ## Prefix Sum
 |  |
@@ -18,6 +20,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0036-valid-sudoku) |
 ## Math
 |  |
 | ------- |
