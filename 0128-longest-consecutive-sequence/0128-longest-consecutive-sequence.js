@@ -5,9 +5,7 @@
 
 function longestConsecutive(nums) {
 	const numsHash = new Map();
-	const sortedNums = nums.sort((a, b) => a - b);
-	const lengths = [];
-	let smallest = sortedNums[0];
+	let longest = 0;
 	let counter = 1;
 
 	for (let i = 0; i < nums.length; i++) {
@@ -16,15 +14,16 @@ function longestConsecutive(nums) {
 			: numsHash.set(nums[i], 1);
 	}
 
-	for (let i = 0; i < sortedNums.length; i++) {
-		if (numsHash.has(smallest + counter)) {
-			counter++;
-		} else {
-			smallest = sortedNums[i];
-			counter = 1;
+	for (let i = 0; i < nums.length; i++) {
+		if (!numsHash.has(nums[i] - 1)) {
+			while (numsHash.has(nums[i] + counter)) {
+				counter++;
+			}
 		}
-		lengths.push(counter);
+
+		if (longest < counter) longest = counter;
+		counter = 1;
 	}
 
-	return lengths.length !== 0 ? lengths.sort((a, b) => b - a)[0] : 0;
+	return longest;
 }
