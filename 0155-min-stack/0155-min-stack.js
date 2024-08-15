@@ -1,52 +1,38 @@
 class MinStack {
-    constructor() {
-        this.stack = {};
-        this.size = 0;
-        this.lastElement = null;
-    }
+	// Stack structure : { index: [val, minVal] }
+	constructor() {
+		this.stack = {};
+		this.size = 0;
+	}
 
-    push(val) {
-        if (this.stack[this.size - 1]) {
-            let last = this.stack[this.size - 1].get(this.lastElement);
+	push(val) {
+		if (this.stack[this.size - 1]) {
+			let minOfLastElement = this.stack[this.size - 1][1];
 
-            if (last < val) {
-                this.stack[this.size] = new Map();
-                this.stack[this.size].set(val, last);
-            } else {
-                this.stack[this.size] = new Map();
-                this.stack[this.size].set(val, val);
-            }
-        } else {
-            this.stack[this.size] = new Map();
-            this.stack[this.size].set(val, val);
-        }
+			if (minOfLastElement < val) {
+				this.stack[this.size] = [val, minOfLastElement];
+			} else {
+				this.stack[this.size] = [val, val];
+			}
+		} else {
+			this.stack[this.size] = [val, val];
+		}
 
-        this.lastElement = val;
-        this.size++;
-    }
+		this.size++;
+	}
 
-    pop() {
-        delete this.stack[this.size - 1];
-        this.size--;
-        let lastIn = this.stack[this.size - 1];
-        if (lastIn) {
-            for (const key of lastIn.keys()) {
-                this.lastElement = key;
-            }
-        }
-    }
+	pop() {
+		delete this.stack[this.size - 1];
+		this.size--;
+	}
 
-    top() {
-        let lastIn = this.stack[this.size - 1];
-        for (const key of lastIn.keys()) {
-            return key;
-        }
-    }
+	top() {
+		const lastIn = this.stack[this.size - 1];
+		return lastIn[0];
+	}
 
-    getMin() {
-        let lastIn = this.stack[this.size - 1];
-        for (const key of lastIn.values()) {
-            return key;
-        }
-    }
+	getMin() {
+		const min = this.stack[this.size - 1][1];
+		return min;
+	}
 }
