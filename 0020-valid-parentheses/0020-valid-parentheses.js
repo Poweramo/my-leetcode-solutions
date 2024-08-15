@@ -4,29 +4,25 @@
  */
 
 function isValid(s) {
-	let stack = [];
+	const bracketStack = [];
+	const openBracketsSet = new Set();
+	const closedBracketsMap = new Map();
+	openBracketsSet.add("{");
+	openBracketsSet.add("(");
+	openBracketsSet.add("[");
+	closedBracketsMap.set("}", "{");
+	closedBracketsMap.set(")", "(");
+	closedBracketsMap.set("]", "[");
 
 	for (let i = 0; i < s.length; i++) {
 		const symbol = s[i];
 
-		if (symbol === "(" || symbol === "{" || symbol === "[") {
-			stack.push(symbol);
-		} else {
-			switch (symbol) {
-				case ")":
-					if (stack.pop() !== "(") return false;
-					break;
-
-				case "}":
-					if (stack.pop() !== "{") return false;
-					break;
-
-				case "]":
-					if (stack.pop() !== "[") return false;
-					break;
-			}
+		if (openBracketsSet.has(symbol)) {
+			bracketStack.push(symbol);
+			continue;
 		}
+		if (bracketStack.pop() !== closedBracketsMap.get(symbol)) return false;
 	}
 
-	return stack.length === 0 ? true : false;
-};
+	return bracketStack.length === 0 ? true : false;
+}
