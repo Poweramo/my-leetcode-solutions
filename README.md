@@ -9,6 +9,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0238-product-of-array-except-self](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
+| [0739-daily-temperatures](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0739-daily-temperatures) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 ## Matrix
 |  |
@@ -63,6 +64,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0155-min-stack) |
 | [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
+| [0739-daily-temperatures](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0739-daily-temperatures) |
 ## Design
 |  |
 | ------- |
@@ -71,4 +73,8 @@
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
