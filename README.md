@@ -33,6 +33,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0231-power-of-two](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0326-power-of-three) |
+| [1013-fibonacci-number](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1013-fibonacci-number) |
 ## String
 |  |
 | ------- |
@@ -53,6 +54,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0231-power-of-two](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0326-power-of-three) |
+| [1013-fibonacci-number](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1013-fibonacci-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -85,4 +87,12 @@
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0231-power-of-two) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
