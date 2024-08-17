@@ -31,6 +31,7 @@
 | ------- |
 | [0009-palindrome-number](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0009-palindrome-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0231-power-of-two](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0231-power-of-two) |
 ## String
 |  |
 | ------- |
@@ -49,6 +50,7 @@
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
+| [0231-power-of-two](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0231-power-of-two) |
 ## Two Pointers
 |  |
 | ------- |
@@ -77,4 +79,8 @@
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0739-daily-temperatures) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
