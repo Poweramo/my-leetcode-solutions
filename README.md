@@ -42,6 +42,7 @@
 | [0014-longest-common-prefix](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1720-crawler-log-folder) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Trie
 |  |
 | ------- |
@@ -76,6 +77,7 @@
 | [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0739-daily-temperatures) |
 | [1720-crawler-log-folder](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1720-crawler-log-folder) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Design
 |  |
 | ------- |
@@ -84,6 +86,7 @@
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Monotonic Stack
 |  |
 | ------- |
