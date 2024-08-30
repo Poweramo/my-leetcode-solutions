@@ -42,6 +42,7 @@
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
+| [0394-decode-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0394-decode-string) |
 | [1720-crawler-log-folder](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1720-crawler-log-folder) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Trie
@@ -60,6 +61,7 @@
 | [0050-powx-n](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0326-power-of-three) |
+| [0394-decode-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1013-fibonacci-number) |
 ## Two Pointers
 |  |
@@ -75,6 +77,7 @@
 | [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0155-min-stack) |
+| [0394-decode-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0394-decode-string) |
 | [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0739-daily-temperatures) |
 | [1720-crawler-log-folder](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1720-crawler-log-folder) |
