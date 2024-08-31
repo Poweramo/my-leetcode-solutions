@@ -5,6 +5,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0036-valid-sudoku) |
+| [0049-group-anagrams](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0238-product-of-array-except-self](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0238-product-of-array-except-self) |
@@ -28,6 +29,7 @@
 | [0001-two-sum](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0036-valid-sudoku) |
+| [0049-group-anagrams](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 ## Math
 |  |
@@ -45,6 +47,7 @@
 | [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0394-decode-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0394-decode-string) |
 | [1720-crawler-log-folder](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1720-crawler-log-folder) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -116,4 +119,8 @@
 |  |
 | ------- |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+## Sorting
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0049-group-anagrams) |
 <!---LeetCode Topics End-->
