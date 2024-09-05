@@ -40,6 +40,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0231-power-of-two](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0326-power-of-three) |
+| [0795-k-th-symbol-in-grammar](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1013-fibonacci-number](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1013-fibonacci-number) |
 ## String
 |  |
@@ -68,6 +69,7 @@
 | [0231-power-of-two](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0326-power-of-three) |
 | [0394-decode-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0394-decode-string) |
+| [0795-k-th-symbol-in-grammar](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1013-fibonacci-number](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1013-fibonacci-number) |
 ## Two Pointers
 |  |
@@ -107,6 +109,7 @@
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0231-power-of-two) |
+| [0795-k-th-symbol-in-grammar](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0795-k-th-symbol-in-grammar) |
 ## Dynamic Programming
 |  |
 | ------- |
