@@ -15,6 +15,7 @@
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1720-crawler-log-folder](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1720-crawler-log-folder) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [2195-time-needed-to-buy-tickets](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2195-time-needed-to-buy-tickets) |
 ## Matrix
 |  |
 | ------- |
@@ -102,6 +103,7 @@
 | ------- |
 | [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [2195-time-needed-to-buy-tickets](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2195-time-needed-to-buy-tickets) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Monotonic Stack
 |  |
@@ -125,6 +127,7 @@
 |  |
 | ------- |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [2195-time-needed-to-buy-tickets](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2195-time-needed-to-buy-tickets) |
 ## Sorting
 |  |
 | ------- |
