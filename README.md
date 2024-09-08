@@ -51,6 +51,7 @@
 | [0014-longest-common-prefix](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0049-group-anagrams) |
+| [0071-simplify-path](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0071-simplify-path) |
 | [0394-decode-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0394-decode-string) |
 | [1720-crawler-log-folder](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1720-crawler-log-folder) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -85,6 +86,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
+| [0071-simplify-path](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0071-simplify-path) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0155-min-stack) |
 | [0394-decode-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0394-decode-string) |
