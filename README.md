@@ -41,6 +41,7 @@
 | [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0050-powx-n) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0227-basic-calculator-ii](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0227-basic-calculator-ii) |
 | [0231-power-of-two](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0326-power-of-three) |
 | [0795-k-th-symbol-in-grammar](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0795-k-th-symbol-in-grammar) |
@@ -53,6 +54,7 @@
 | [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0071-simplify-path) |
+| [0227-basic-calculator-ii](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0227-basic-calculator-ii) |
 | [0394-decode-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0394-decode-string) |
 | [1720-crawler-log-folder](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1720-crawler-log-folder) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Poweramo/my-leetcode-solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -92,6 +94,7 @@
 | [0071-simplify-path](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0071-simplify-path) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0155-min-stack) |
+| [0227-basic-calculator-ii](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0227-basic-calculator-ii) |
 | [0394-decode-string](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0394-decode-string) |
 | [0682-baseball-game](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0739-daily-temperatures) |
