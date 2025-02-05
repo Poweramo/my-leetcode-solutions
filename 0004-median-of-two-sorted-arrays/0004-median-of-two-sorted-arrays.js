@@ -16,7 +16,7 @@ function findMedianSortedArrays(nums1, nums2) {
         nums1.pop()
     }
 
-    if (nums1.length === 1) nums1.push(nums1[0])
+    if (nums1.length === 1) return nums1[0]
     return (nums1[0] + nums1[1]) / 2
 }
 
