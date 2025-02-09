@@ -52,6 +52,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
@@ -85,6 +86,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0908-middle-of-the-linked-list](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
 ## Union Find
 |  |
@@ -129,6 +131,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [1013-fibonacci-number](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
