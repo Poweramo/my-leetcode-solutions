@@ -56,6 +56,7 @@
 | [0005-longest-palindromic-substring](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0008-string-to-integer-atoi) |
+| [0010-regular-expression-matching](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0010-regular-expression-matching) |
 | [0013-roman-to-integer](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
@@ -79,6 +80,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0002-add-two-numbers) |
+| [0010-regular-expression-matching](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0010-regular-expression-matching) |
 | [0021-merge-two-sorted-lists](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0231-power-of-two) |
@@ -135,6 +137,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
+| [0010-regular-expression-matching](https://github.com/Poweramo/my-leetcode-solutions/tree/master/0010-regular-expression-matching) |
 | [1013-fibonacci-number](https://github.com/Poweramo/my-leetcode-solutions/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
