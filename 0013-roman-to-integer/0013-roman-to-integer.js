@@ -2,78 +2,35 @@
  * @param {string} s
  * @return {number}
  */
- 
 function romanToInt(s) {
-    let number = 0;
-	let i = 1,
-		v = 5 * i,
-		x = 2 * v,
-		l = 5 * x,
-		c = 2 * l,
-		d = 5 * c,
-		m = 2 * d;
-
-	for (let index = 0; index < s.length; index++) {
-		switch (s[index]) {
-			case "I":
-				if (s[index + 1] === "V" || s[index + 1] === "X") {
-					switch (s[index + 1]) {
-						case "V":
-							number += v - i;
-							break;
-						case "X":
-							number += x - i;
-							break;
-					}
-					index++;
-				} else {
-					number += i;
-				}
-				break;
-			case "V":
-				number += v;
-				break;
-			case "X":
-				if (s[index + 1] === "L" || s[index + 1] === "C") {
-					switch (s[index + 1]) {
-						case "L":
-							number += l - x;
-							break;
-						case "C":
-							number += c - x;
-							break;
-					}
-					index++;
-				} else {
-					number += x;
-				}
-				break;
-			case "L":
-				number += l;
-				break;
-			case "C":
-				if (s[index + 1] === "D" || s[index + 1] === "M") {
-					switch (s[index + 1]) {
-						case "D":
-							number += d - c;
-							break;
-						case "M":
-							number += m - c;
-							break;
-					}
-					index++;
-				} else {
-					number += c;
-				}
-				break;
-			case "D":
-				number += d;
-				break;
-			case "M":
-				number += m;
-				break;
-		}
+	let resNum = 0
+	const symbolsValues = {
+		"I": 1,
+		"IV": 4,
+		"V": 5,
+		"IX": 9,
+		"X": 10,
+		"XL": 40,
+		"L": 50,
+		"XC": 90,
+		"C": 100,
+		"CD": 400,
+		"D": 500,
+		"CM": 900,
+		"M": 1000
 	}
 
-	return number;
-};
+	let index = 0
+	while (index < s.length) {
+		let initialChar = s[index]
+		const char2 = s[index + 1]
+
+		if (symbolsValues[initialChar + char2]) initialChar += char2
+		resNum += symbolsValues[initialChar]
+
+		if (initialChar.length !== 1) index++
+		index++
+	}
+
+	return resNum
+}
