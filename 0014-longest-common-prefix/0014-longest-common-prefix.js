@@ -2,18 +2,21 @@
  * @param {string[]} strs
  * @return {string}
  */
-
 function longestCommonPrefix(strs) {
-    let lCP = "";
-	const sortedStrs = strs.sort((a, b) => a.length - b.length);
-	const shortestWord = sortedStrs[0];
+	let commonPrefix = ""
+	strs = strs.sort((a,b) => b.length - a.length)
 
-	for (let i = 0; i < shortestWord.length; i++) {
-		const isMatchAll = strs.every((word) => word[i] === shortestWord[i]);
+	let i = 0
+	while (i < strs[0].length) {
+		for (let j = 0; j < strs.length - 1; j++) {
+			const str = strs[j]
+			const nextStr = strs[j+1]
+			if (str[i] !== nextStr[i]) return commonPrefix
+		}
 
-		if (!isMatchAll) break;
-		lCP += shortestWord[i];
+		commonPrefix += strs[0][i]
+		i++
 	}
 
-	return lCP;
-};
+	return commonPrefix    
+}
