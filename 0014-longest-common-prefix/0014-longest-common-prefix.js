@@ -3,20 +3,24 @@
  * @return {string}
  */
 function longestCommonPrefix(strs) {
-	let commonPrefix = ""
-	strs = strs.sort((a,b) => b.length - a.length)
+    let commonPrefix = ""
+    if (strs.length === 1) return strs[0]
+    let i = 0
+    let j = 0
 
-	let i = 0
-	while (i < strs[0].length) {
-		for (let j = 0; j < strs.length - 1; j++) {
-			const str = strs[j]
-			const nextStr = strs[j+1]
-			if (str[i] !== nextStr[i]) return commonPrefix
-		}
+    while (strs[j][i] && strs[j+1][i]) {
+        while (j < strs.length - 1) {
+            const str = strs[j]
+            const nextStr = strs[j + 1]
+            
+            if (str[i] !== nextStr[i]) return commonPrefix
+            j++
+        }
 
-		commonPrefix += strs[0][i]
-		i++
-	}
+        commonPrefix += strs[0][i]
+        i++
+        j = 0
+    }
 
-	return commonPrefix    
+    return commonPrefix
 }
