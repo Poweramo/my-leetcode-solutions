@@ -4,18 +4,13 @@
  * @return {number[]}
  */
 function twoSum(numbers, target) {
-    const numsIndexes = new Map()
+    let rightPointer = numbers.length - 1
+    let leftPointer = 0
 
-    for (let i = 0; i < numbers.length; i++) {
-        numsIndexes.set(numbers[i], i)
-    }
+    while (leftPointer < rightPointer) {
+        const sum = numbers[rightPointer] + numbers[leftPointer]
 
-    for (let i = 0; i < numbers.length; i++) {
-        const diff = target - numbers[i]
-
-        if (numsIndexes.has(diff)) {
-            const diffIndex = numsIndexes.get(diff)
-            if (i !== diffIndex) return [i + 1, diffIndex + 1]
-        }
+        if (sum === target) return [leftPointer + 1, rightPointer + 1]
+        sum > target ? rightPointer-- : leftPointer++
     }
 }
